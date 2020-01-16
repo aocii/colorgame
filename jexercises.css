@@ -1,0 +1,15 @@
+.wrong {
+    opacity: 0.5;
+}
+
+.wrong:before {
+    content: "Wronggg!!!";
+    font-size: 3rem;
+    color: black;
+    
+}
+.right:before{
+    content: "RİGHT";
+    font-size: 3rem;
+    color: black;
+}

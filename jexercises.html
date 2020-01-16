@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/jexercises.css">
+
+    <title>aoci
+
+    </title>
+</head>
+
+<body>
+
+
+    <div class="row justify-content-md-center">
+        <div class="col col-6">
+            <ul class="nav justify-content-center flex-column ">
+                <li class="nav-item">
+                    <h2 class="d-flex justify-content-center">Guess Color</h2>
+                </li>
+                <li class="nav-item">
+                    <h1 class="d-flex justify-content-center">RGB(123,123,123)</h1>
+                </li>
+                <li class="nav-item  ">
+                    <div class="row">
+                        <div class="col-8">
+                            <h6 class="d-flex justify-content-end mt-2">Try to guess the color with the rgb code above.
+                            </h6>
+                        </div>
+                        <div class="col-4">
+                            <!-- Button trigger modal -->
+
+                            <button type="button" class="btn btn-primary justify-content-end" data-toggle="modal"
+                                data-target="#exampleModal">
+                                But how?
+                            </button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Understanding RGB</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="card" style="width: 100%;">
+                                                <div class="card-body">
+                                                    <p class="card-text">In the RGB code, first 3 digit is the level of
+                                                        reddish, next is green and the last is blue. </p>
+                                                    <a href="https://geraldbakker.nl/psnumbers/rgb-explained.html"
+                                                        class="card-link">I want to understand better!</a>
+
+                                                </div>
+                                            </div>
+                                            <img class="img-fluid" src="/rgb.jpg" alt="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Understood!!</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-6">
+                <div class="d-flex bd-highlight mb-3">
+                    <button id="generateButton" type="button"
+                        class="mr-auto p-2 bd-highlight btn btn-primary">Generate</button>
+                    <button id="de" type="button" class="p-2 bd-highlight btn btn-danger">Hard</button>
+                    <button type="button" class="p-2 bd-highlight btn btn-success">Easy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="a col col-4 " style="height: 200px;"><span></span> </div>
+            <div class="a col col-4 "><span></span></div>
+            <div class="a col col-4 "><span></span></div>
+        </div>
+        <div class="row">
+            <div class="a col col-4 " style="height: 200px;"><span></span></div>
+            <div class="a col col-4 "><span></span></div>
+            <div class="a col col-4 "><span></span></div>
+        </div>
+        <div class="row">
+            <div class="a col col-4 " style="height: 200px;"><span></span></div>
+            <div class="a col col-4 "><span></span></div>
+            <div class="a col col-4 "><span></span></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="/jexercises.js"></script>
+</body>
+
+</html>
