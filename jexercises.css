@@ -6,10 +6,25 @@
     content: "Wronggg!!!";
     font-size: 3rem;
     color: black;
-    
 }
-.right:before{
-    content: "RİGHT";
+
+.right:before {
+    content: "RIGHT";
     font-size: 3rem;
     color: black;
+}
+
+.color_ {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.headerbg {
+    background-size: 250px;
+    background-image: url(/headerBg.jpg);
+    background-repeat: repeat;
+}
+
+.modal-backdrop {
+    position: unset !important;
 }
